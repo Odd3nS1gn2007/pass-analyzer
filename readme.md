@@ -53,31 +53,38 @@ Stores hashed passwords securely in binary format for reuse prevention.
 
 The password strength score is calculated out of 50 points.
 
-**Length Score (25 Points)**
+## Length Score (25 Points)
 
-Password Length	Score
-< 6	         0
-6 – 7	     5
-8 – 9	     10
-10 – 11	     15
-12 – 14	     20
-15 or more	 25
+| Password Length | Score |
+|-----------------|-------|
+| < 6             | 0     |
+| 6 – 7           | 5     |
+| 8 – 9           | 10    |
+| 10 – 11         | 15    |
+| 12 – 14         | 20    |
+| 15 or more      | 25    |
 
-**Character Diversity Score (25 Points)**
+---
 
-Character Type	Points
-Lowercase	     5
-Uppercase	     5
-Numbers	         5
-Special Symbols	 5
-All Combined	 5 
+## Character Diversity Score (25 Points)
 
-**Pattern Penalties**
+| Character Type | Points |
+|----------------|--------|
+| Lowercase      | 5      |
+| Uppercase      | 5      |
+| Numbers        | 5      |
+| Special Symbols| 5      |
+| All Combined   | 5      |
 
-Weak Pattern	      Penalty
-Sequential Numbers	   -5
-Sequential Alphabets   -5
-Repeated Characters	   -5
+---
+
+## Pattern Penalties
+
+| Weak Pattern | Penalty |
+|--------------|---------|
+| Sequential Numbers | -5 |
+| Sequential Alphabets | -5 |
+| Repeated Characters | -5 |
 
 **Instant Rejection Conditions**
 Common password detected
@@ -85,12 +92,10 @@ Password reuse detected
 
 ---
 ## Future Enhancements
-Graphical User Interface (GUI)
-Database integration
-Advanced entropy calculation
-Real-time breached password API integration
-Multi-user authentication system
-Password generation system
-Exportable security reports
+- Graphical User Interface (GUI)
+- Database integration
+- Multi-user authentication system
+- Password generation system
+- Exportable report
 
 ---
