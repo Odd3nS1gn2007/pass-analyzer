@@ -18,6 +18,17 @@ The project aims to promote secure password creation practices and demonstrate f
 - Binary file storage for password history
 
 ---
+## How to Use
+
+1. Run the application:
+```bash
+python main.py
+```
+
+2. Enter a password for analysis.
+
+3. View the generated password strength report and security suggestions.
+---
 ## Modules Description
 
 main.py
