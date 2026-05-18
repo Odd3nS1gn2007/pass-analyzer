@@ -1,5 +1,3 @@
-from getpass import getpass
-
 from analyzer import (
     calculate_length_score,
     calculate_character_score,
@@ -21,7 +19,7 @@ from storage import (
 def main():
     print("===== PASSWORD STRENGTH ANALYZER =====\n")
 
-    password = getpass("Enter Password: ")
+    password = input("Enter Password: ")
 
     # Common password check
     if is_common_password(password):
